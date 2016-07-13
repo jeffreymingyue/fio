@@ -2186,6 +2186,10 @@ struct debug_level debug_levels[] = {
 	  .help = "Steady state detection logging",
 	  .shift = FD_STEADYSTATE,
 	},
+	{ .name = "helperthread",
+	  .help = "Helper thread logging",
+	  .shift = FD_HELPERTHREAD,
+	},
 	{ .name = NULL, },
 };
 
